@@ -1,0 +1,7 @@
+Results of the found duplicate file with the same content: 
+
+Filename:
+file2.out
+ Found Duplicates:
+/home/lukashentschel/Documents/Python/duplicateFinder/test/test2/file2.out
+/home/lukashentschel/Documents/Python/duplicateFinder/test/test1/file1.txt
