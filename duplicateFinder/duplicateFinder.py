@@ -1,3 +1,16 @@
+"""
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+====         ===  ==       ==  ==           |      M ontan
+||\\        //||  ||       ||  ||           |      U niversitaet
+|| \\      // ||  ||       ||  ||           |      L eoben
+||  \\    //  ||  ||       ||  ||           |
+||   \\  //   ||  ||       ||  ||           |      Institute for 
+||    \\//    ||  ||       ||  ||           |      polymer processing
+||            ||  ||       ||  ||           |
+||            ||   =========    ==========  |      Author:    Skywalker2204
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+"""
+
 import os
 import sys
 import hashlib
@@ -125,7 +138,9 @@ class duplicateFinder(object):
                     #[os.path.split(path)[:-1] for path in val])
         
         if len(self.__DuplicatesDict.items()) != 0:
-            print('Duplicates Found')
+            print('Duplicates found')
+        else:
+            print('No duplicates found')
             
         return self.__DuplicatesDict
     
